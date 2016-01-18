@@ -47,6 +47,7 @@ namespace TytySample
 
 		public InfoStationViewModel (Station station)
 		{
+			Title = "Станция";
 			//Инициализация данных от станции 
 			//Создание списка данных и последающая их передача вьюшке
 			this.station = station;

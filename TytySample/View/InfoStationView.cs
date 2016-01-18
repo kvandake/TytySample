@@ -14,6 +14,7 @@ namespace TytySample
 		public InfoStationView (Station station)
 		{
 			viewModel = new InfoStationViewModel (station);
+			Title = viewModel.Title;
 			sourceTable = new GroupTableSource (TableView);
 			sourceTable.DataSource = viewModel.Items;
 			sourceTable.CreateCell = CreatorCell;
