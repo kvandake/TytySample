@@ -11,3 +11,4 @@
 * [Расписание](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.06.51.png)
 * [Выбор станции](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.06.57.png)
 * [Выбор станции из списка](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.07.09.png)
+* [Описание станции](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.22.36.png)
