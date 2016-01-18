@@ -6,14 +6,26 @@
 * Открыть проект через Xamarin Studio и запустить в симуляторе (тестировалось только на iPhone 5S).
 
 Скриншоты:
-* ![Общий экран](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.06.43.png? "Общий экран")
 
-* ![О программе](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.06.48.png "О программе")
+## Общий экран
 
-* ![Расписание](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.06.51.png "Расписание")
+![Общий экран](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.06.43.png? "Общий экран")
 
-* ![Выбор станции](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.06.57.png "Выбор станции")
+## О программе
 
-* ![Выбор станции из списка](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.07.09.png "Выбор станции из списка")
+![О программе](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.06.48.png "О программе")
 
-* ![Описание станции](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.22.36.png "Описание станции")
+## Расписание 
+
+![Расписание](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.06.51.png "Расписание")
+
+## Выбор станции
+
+![Выбор станции](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.06.57.png "Выбор станции")
+
+## Выбор станции из списка
+
+![Выбор станции из списка](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.07.09.png "Выбор станции из списка")
+
+## Описание станции
+![Описание станции](https://github.com/kvandake/TytySample/blob/master/Screenshots/Simulator%20Screen%20Shot%2019%20%D1%8F%D0%BD%D0%B2.%202016%20%D0%B3.%2C%202.22.36.png "Описание станции")
