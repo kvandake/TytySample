@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TytySample", "TytySample\TytySample.csproj", "{D528DC4C-AA01-4852-B69A-4F5C971E5CA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D528DC4C-AA01-4852-B69A-4F5C971E5CA4}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D528DC4C-AA01-4852-B69A-4F5C971E5CA4}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D528DC4C-AA01-4852-B69A-4F5C971E5CA4}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D528DC4C-AA01-4852-B69A-4F5C971E5CA4}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D528DC4C-AA01-4852-B69A-4F5C971E5CA4}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D528DC4C-AA01-4852-B69A-4F5C971E5CA4}.Release|iPhone.Build.0 = Release|iPhone
+		{D528DC4C-AA01-4852-B69A-4F5C971E5CA4}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D528DC4C-AA01-4852-B69A-4F5C971E5CA4}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal

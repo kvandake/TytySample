@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutView">
+            <connections>
+                <outlet property="AppInfoLabel" destination="e7C-zf-eUF" id="Jqm-WX-zO6"/>
+                <outlet property="view" destination="kYK-qx-3Al" id="dqz-F5-Rpg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kYK-qx-3Al">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2016 home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="jh9-AV-80T">
+                    <rect key="frame" x="20" y="695" width="375" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TytySample" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="e7C-zf-eUF">
+                    <rect key="frame" x="20" y="225" width="375" height="43"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jh9-AV-80T" firstAttribute="leading" secondItem="kYK-qx-3Al" secondAttribute="leading" constant="20" symbolic="YES" id="8CQ-iW-B9h"/>
+                <constraint firstItem="e7C-zf-eUF" firstAttribute="centerY" secondItem="kYK-qx-3Al" secondAttribute="bottom" multiplier="1/3" constant="1" id="Gls-CX-hwZ"/>
+                <constraint firstAttribute="centerX" secondItem="e7C-zf-eUF" secondAttribute="centerX" id="OrO-V0-JA2"/>
+                <constraint firstItem="e7C-zf-eUF" firstAttribute="leading" secondItem="kYK-qx-3Al" secondAttribute="leading" constant="20" symbolic="YES" id="YR5-3a-Qek"/>
+                <constraint firstAttribute="centerX" secondItem="jh9-AV-80T" secondAttribute="centerX" id="qOK-gJ-ODM"/>
+                <constraint firstAttribute="bottom" secondItem="jh9-AV-80T" secondAttribute="bottom" constant="20" id="w8a-qf-Ofn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="320" id="cxk-wN-pdQ" customClass="MapViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxk-wN-pdQ" id="YTl-1W-gDM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="319"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHq-C5-H4z">
+                        <rect key="frame" x="16" y="16" width="288" height="288"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="WHq-C5-H4z" secondAttribute="height" multiplier="1:1" id="aAJ-gf-7dz"/>
+                        </constraints>
+                    </mapView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="WHq-C5-H4z" secondAttribute="trailing" constant="8" id="0dL-c3-JRp"/>
+                    <constraint firstItem="WHq-C5-H4z" firstAttribute="centerX" secondItem="YTl-1W-gDM" secondAttribute="centerX" id="C93-pU-gmC"/>
+                    <constraint firstItem="WHq-C5-H4z" firstAttribute="leading" secondItem="YTl-1W-gDM" secondAttribute="leadingMargin" constant="8" id="De2-re-tXa"/>
+                    <constraint firstItem="WHq-C5-H4z" firstAttribute="centerY" secondItem="YTl-1W-gDM" secondAttribute="centerY" id="Drk-1m-2eU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="MapView" destination="WHq-C5-H4z" id="VEd-PA-RcB"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
